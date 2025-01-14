@@ -11,6 +11,6 @@ app.get('/', (req, res) => {
 })
 app.use('/notes/', notesrouter)
 PORT = process.env.PORT || 3000
-app.listen(3000, () => {
-    console.log('listening to port number ', 3000)
+app.listen(PORT, () => {
+    console.log('listening to port number ', PORT)
 })
